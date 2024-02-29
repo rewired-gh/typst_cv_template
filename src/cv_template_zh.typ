@@ -10,6 +10,11 @@
   set text(font: ("IBM Plex Serif", "Source Han Serif SC", "SimSun", "Songti SC"), size: 12pt)
   set block(spacing: 12pt)
 
+  set document(
+    title: "简历",
+    author: name,
+  )
+
   show link: underline
   
   set align(center)
@@ -28,7 +33,9 @@
 
   set align(start)
   set line(stroke: 0.38pt + luma(20%))
-  show heading: it => {
+  show heading.where(
+    level: 1
+  ): it => {
     set text(size: 14pt, weight: "semibold")
     v(4pt)
     align(left, text(it))
@@ -45,7 +52,12 @@
     )
     v(8pt)
   }
-  
+  show heading.where(
+    level: 2
+  ): it => {
+    box(text(size: 12pt, weight: "semibold", it))
+  }
+
   doc
 }
 
@@ -54,7 +66,7 @@
   entity: none,
   date: none,
 ) = par({
-  text(weight: "semibold", name)
+  heading(level: 2, name)
   if entity != none {
     "，"
     text(fill: luma(33%), entity)
