@@ -7,7 +7,7 @@
   doc
 ) = {
   set page(margin: (x: 40pt, y: 40pt))
-  set text(font: ("IBM Plex Serif", "Source Han Serif SC", "SimSun", "Songti SC"), size: 12pt)
+  set text(font: ("Source Han Serif SC", "STIX Two Text", "Times New Roman", "SimSun", "Songti SC"), size: 12pt)
   set block(spacing: 12pt)
 
   set document(
