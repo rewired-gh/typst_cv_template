@@ -80,19 +80,20 @@
 = Education
 
 #cv_block(
-  name: "Kariton College",
-  date: "Jan. 2022 ~ Apr. 2023"
+  name: "Caliton University of Science and Technology",
+  date: "Sep. 2019 ~ Jul. 2020"
 )
 
-Undergraduate student majored in Computer Science
+Typesetting and Slacking Off Bachelor's Degree
+#h(1fr)
+GPA：114/514
 
-
-= Experience
+= Awards
 
 #cv_block(
-  name: "Some Internship",
-  entity: "Make Money Inc.",
-  date: "Jan. 2022 ~ Apr. 2023"
+  name: "2019 'Slacking Off Cup' First Prize",
+  entity: "Subsidy Fraud Committee",
+  date: "June 2019"
 )
 
 #lorem(20)

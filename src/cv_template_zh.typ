@@ -70,28 +70,30 @@
 //// Preview ////
 
 #show: doc => conf(
-  name: "春华秋实",
-  address: "地址：广东省深圳市",
-  phone: "电话：(+86) 13342339988",
-  email: "邮箱：hello@example.com",
+  name: "华秋",
+  phone: "电话：(+86) 13117158822",
+  email: "电子邮箱：wangqiang@example.com",
+  info: [GitHub：#cv_link("https://github.com/random_username")],
   doc,
 )
 
 = 教育经历
 
 #cv_block(
-  name: "家里蹲职业学院",
-  date: "2022年6月 ～ 2023年4月"
+  name: "家里蹲科学与科技大学",
+  date: "2019年9月 ～ 2020年7月"
 )
 
-计算机科学与技术专业本科在读
+排版与摸鱼专业本科
+#h(1fr)
+全部课程GPA：114/100；核心课程GPA：514/100
 
-= 工作经历
+= 获奖经历
 
 #cv_block(
-  name: "某实习",
-  entity: "搞钱快责任有限公司",
-  date: "Jan. 2022 ~ Apr. 2023"
+  name: "2019年“摸鱼杯”信创学生比赛一等奖",
+  entity: "骗补贴教育研究委员会",
+  date: "2019年6月"
 )
 
 #lorem(20)

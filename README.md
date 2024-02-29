@@ -25,10 +25,9 @@ Configure the document. For example:
 )
 ```
 
-And start writing.
+And start writing. You may need to refer to the [examples](#example-code) to learn how to use built-in functions.
 
 ## Example code
-
 
 ### 中文
 
@@ -36,7 +35,7 @@ And start writing.
 #import "cv_template_zh.typ": *
 
 #show: doc => conf(
-  name: "王强",
+  name: "华秋",
   phone: "电话：(+86) 13117158822",
   email: "电子邮箱：wangqiang@example.com",
   info: [GitHub：#cv_link("https://github.com/random_username")],
@@ -94,8 +93,8 @@ GPA：114/514
 = Awards
 
 #cv_block(
-  name: "2019 'Slacking Off Cup' Innovation Student Competition First Prize",
-  entity: "Subsidy Fraud Education Research Committee",
+  name: "2019 'Slacking Off Cup' First Prize",
+  entity: "Subsidy Fraud Committee",
   date: "June 2019"
 )
 
